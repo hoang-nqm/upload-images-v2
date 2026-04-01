@@ -96,7 +96,7 @@ const UploadForm = () => {
             <Input prefix={<IdcardOutlined style={{color: '#bfbfbf'}} />} placeholder="12 chữ số" maxLength={12} />
           </Form.Item>
 
-          <Form.Item label="ẢNH CHỤP CCCD">
+          <Form.Item label="ẢNH CHỤP FACEID">
             <Upload
               listType="picture-card"
               fileList={fileList}
